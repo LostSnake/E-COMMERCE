@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Nike store</title>
+</head>
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="images/sneakers.png" alt="">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Найти" class="searchInput">
+                    <img src="/images/search.png" height="20" width="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">
+                    Limited Offer!!!
+                </span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">AIR FORCE</h3> 
+            <h3 class="menuItem">JORDAN</h3> 
+            <h3 class="menuItem">BLAZER</h3> 
+            <h3 class="menuItem">CRATER</h3> 
+            <h3 class="menuItem">HIPPIE</h3> 
+        </div>
+    </nav>
+
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="/images/air.png" alt="" class="sliderImage">
+                <div class="sliderBg"></div>
+                <h1 class="sliederTitle">
+                    AIR FORCE <br> NEW </br> SEASON  
+                </h1>
+                <h2 class="sliderPrice">$119</h2>
+                <a href="#product">
+                    <button class="butButton">Buy now!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="/images/jordan.png" alt="" class="sliderImage">
+                <div class="sliderBg"></div>
+                <h1 class="sliederTitle">
+                    AIR FORCE <br> NEW </br> SEASON  
+                </h1>
+                <h2 class="sliderPrice">$149</h2>
+                <a href="#product">
+                    <button class="butButton">Buy now!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="/images/blazer.png" alt="" class="sliderImage">
+                <div class="sliderBg"></div>
+                <h1 class="sliederTitle">
+                    AIR FORCE <br> NEW </br> SEASON  
+                </h1>
+                <h2 class="sliderPrice">$109</h2>
+                <a href="#product">
+                    <button class="butButton">Buy now!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="/images/crater.png" alt="" class="sliderImage">
+                <div class="sliderBg"></div>
+                <h1 class="sliederTitle">
+                    AIR FORCE <br> NEW </br> SEASON  
+                </h1>
+                <h2 class="sliderPrice">$129</h2>
+                <a href="#product">
+                    <button class="butButton">Buy now!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="/images/hippie.png" alt="" class="sliderImage">
+                <div class="sliderBg"></div>
+                <h1 class="sliederTitle">
+                    AIR FORCE <br> NEW </br> SEASON  
+                </h1>
+                <h2 class="sliderPrice">$99</h2>
+                <a href="#product">
+                    <button class="butButton">Buy now!</button>
+                </a>                
+            </div>   
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <img src="/images/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">Бесплатная доставка</span>
+            <span class="featureDesc">Бесплатная доставка по всему миру</span>
+        </div>
+        <div class="feature">
+            <img src="/images/return.png" alt="" class="featureIcon">
+            <span class="featureTitle">30 дней для возврата</span>
+            <span class="featureDesc">Быстрый возврат и возврат средств в течении 14 дней</span>
+        </div>
+        <div class="feature">
+            <img src="/images/gift.png" alt="" class="featureIcon">
+            <span class="featureTitle">Подарочные карты</span>
+            <span class="featureDesc">Подарочные карты и купоны</span>
+        </div>
+        <div class="feature">
+            <img src="/images/contact.png" alt="" class="featureIcon">
+            <span class="featureTitle">Связь с нами</span>
+            <span class="featureDesc">Вы можете связатсья по email или использовать службу поддержки</span>
+        </div> 
+    </div>
+
+    <div class="product" id="product">
+        <img src="/images/air.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">AIR FORCE</h1>
+            <h2 class="productPrice">$199</h2>
+            <p class="productDesc">
+                The United States Air Force, (USAF), one of the major components of the United States armed forces.
+            </p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productButton">Купить</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Информация о доставке</h1>
+            <label>Имя и Фамилия</label>
+            <input type="text" placeholder="Введите Имя" class="payInput">
+            <label>Телефон</label>
+            <input type="text" placeholder="Номер телефона" class="payInput">
+            <label>Адрес</label>
+            <input type="text" placeholder="Адрес" class="payInput">
+
+            <h1 class="payTitle">Информация о карте</h1>
+            <div class="cardInformation">
+                <img src="/images/visa.png" width="40" alt="" class="cardImg">
+                <img src="/images/master.png" alt="" width="40" class="cardImg">
+            </div>
+            <input type="pas" class="payInput" placeholder="Номер карты">
+            <div class="cardInfo">
+                <input type="text" class="payInput sm" placeholder="mm">
+                <input type="text" class="payInput sm" placeholder="yyyy">
+                <input type="text" class="payInput sm" placeholder="cvv">
+            </div>
+            <button class="payButton">Оплатить</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galeryTitle">Будь собой</h1>
+            <img src="https://images.unsplash.com/photo-1528311205469-a0f2917476d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=820&q=80" alt="" class="galletyImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://images.unsplash.com/photo-1586525198428-225f6f12cff5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" class="galletyImg">
+            <h1 class="galeryTitle">Первый день твоей новой жизни</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galeryTitle">Just Do It!</h1>
+            <img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" class="galletyImg">
+        </div>
+    </div>
+
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="https://images.unsplash.com/photo-1579338908476-3a3a1d71a706?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" class="newSeasonImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nstitleSm">Новое пополнение</h3>
+            <h1 class="nsTitle">Новый сезон</h1>
+            <h1 class="nsTitle">Новая коллекция</h1>
+            <a href="#nav">
+                <button class="nsButt">Выбери свой стиль</button>    
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="https://images.unsplash.com/photo-1620138546344-7b2c38516edf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" class="newSeasonImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="footerMenuTitle">О нас</h1>
+                <ul class="fMenuList">
+                    <li class="fListItem">Кампания</li>
+                    <li class="fListItem">Контакты</li>
+                    <li class="fListItem">Карьера</li>
+                    <li class="fListItem">Истории успеха</li>
+                </ul>    
+            </div>
+            <div class="footerMenu">
+                <h1 class="footerMenuTitle">Полезные ссылки</h1>
+                <ul class="fMenuList">
+                    <li class="fListItem">Поддержка</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Отзывы</li>
+                    <li class="fListItem">Магазины</li>
+                </ul>    
+            </div>
+            <div class="footerMenu">
+                <h1 class="footerMenuTitle">Продукция</h1>
+                <ul class="fMenuList">
+                    <li class="fListItem">Air Force</li>
+                    <li class="fListItem">Air Jordan</li>
+                    <li class="fListItem">Blazer</li>
+                    <li class="fListItem">Crater</li>
+                    <li class="fListItem">Hippie</li>
+                </ul>    
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Подпишись на новости</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="Введите вашу почту" class="fInput">
+                    <button class="fButton">Подписаться</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Подпишись на нас</h1>
+                <div class="fIcons">
+                    <img src="/images/facebook.png" alt="" class="fIcon">
+                    <img src="/images/twitter.png" alt="" class="fIcon">
+                    <img src="/images/instagram.png" alt="" class="fIcon">
+                    <img src="/images/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Chel. Все права защищены. 2023</span>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
